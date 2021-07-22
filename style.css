@@ -11,8 +11,15 @@ body {
 
 header,
 nav,
+a {
+  color: khaki;
+}
+
 a:visited {
   color: khaki;
+}
+a:hover {
+  color: orange;
 }
 
 header,
@@ -30,19 +37,17 @@ figure,
   align-items: center;
 }
 
-header, 
-.footer, 
-.container 
- {
-    justify-content: center;
+header,
+.footer,
+.container {
+  justify-content: center;
 }
 
-figcaption, 
-.section-border, 
-.text  {
-    text-align: center;
+figcaption,
+.section-border,
+.text {
+  text-align: center;
 }
-
 
 header {
   background-image: linear-gradient(to right bottom, #158cff, #0054a5);
@@ -61,10 +66,6 @@ nav a {
   display: inline;
   justify-content: space-evenly;
   margin: 25px;
-}
-
-a:hover {
-  color: orange;
 }
 
 footer a {
@@ -105,4 +106,5 @@ hr.new4 {
 }
 #homePicture {
   max-width: 100vw;
+  margin: auto;
 }
